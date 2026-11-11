@@ -88,8 +88,8 @@ export default function Hero({ setActiveTab }) {
           </div>
 
           <p className="hero-description">
-            Passionate software developer and data analyst currently contributing as an{' '}
-            <strong className="text-highlight">Intern Trainee at Lumen Technologies</strong>. Specializing in{' '}
+            Software Development Engineer at{' '}
+            <strong className="text-highlight">Lumen Technologies</strong> with <strong>1.3+ years full-time</strong> experience (1.9+ years total including corporate internship). Specializing in{' '}
             <strong>Python, Machine Learning, React, and Data Analytics</strong> to architect scalable enterprise solutions and intelligent data systems.
           </p>
 
@@ -191,7 +191,11 @@ export default function Hero({ setActiveTab }) {
               </p>
               <p className="code-line indent-1">
                 <span className="code-key">currentRole</span>:{' '}
-                <span className="code-string">'Intern Trainee @ Lumen'</span>,
+                <span className="code-string">'SDE @ Lumen Technologies'</span>,
+              </p>
+              <p className="code-line indent-1">
+                <span className="code-key">experience</span>:{' '}
+                <span className="code-string">'1.3+ Yrs FT | 1.9+ Yrs w/ Intern'</span>,
               </p>
               <p className="code-line indent-1">
                 <span className="code-key">gateAIR</span>:{' '}
@@ -226,7 +230,7 @@ export default function Hero({ setActiveTab }) {
                 <p className="terminal-profile-name">{PROFILE.shortName}</p>
                 <p className="terminal-profile-status">
                   <span className="mini-beacon"></span>
-                  Lumen Technologies
+                  SDE @ Lumen Technologies
                 </p>
               </div>
             </div>

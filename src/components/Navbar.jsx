@@ -56,7 +56,7 @@ export default function Navbar({ activeTab, setActiveTab, theme, onToggleTheme }
           </div>
           <div className="stat-chip highlight-chip">
             <Briefcase size={15} className="chip-icon work-icon" />
-            <span>Lumen Technologies</span>
+            <span>SDE @ Lumen Technologies</span>
           </div>
 
           {/* Theme Toggle Button */}

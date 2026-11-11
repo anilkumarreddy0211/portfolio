@@ -64,7 +64,7 @@ export default function DashboardOverview({ onNavigate, onShowToast }) {
             <div className="overview-status-row">
               <span className="live-pulse-badge">
                 <span className="pulse-dot"></span>
-                <span>Active Trainee @ Lumen Technologies</span>
+                <span>Software Development Engineer @ Lumen Technologies</span>
               </span>
               <span className="gate-tag-pill">
                 <Sparkles size={14} className="sparkle-gold" />
@@ -136,7 +136,8 @@ export default function DashboardOverview({ onNavigate, onShowToast }) {
               </div>
               <div className="terminal-output">
                 <p className="t-row"><span className="t-key">Name:</span> <span className="t-val-str">"{PROFILE.name}"</span></p>
-                <p className="t-row"><span className="t-key">Status:</span> <span className="t-val-accent">"Lumen Technologies (Intern Trainee)"</span></p>
+                <p className="t-row"><span className="t-key">Role:</span> <span className="t-val-accent">"Software Development Engineer @ Lumen"</span></p>
+                <p className="t-row"><span className="t-key">Experience:</span> <span className="t-val-code">"1.3+ Yrs Full-Time | 1.9+ Yrs w/ Intern"</span></p>
                 <p className="t-row"><span className="t-key">Degree:</span> <span className="t-val-str">"B.Tech CSE (AI &amp; DS) • 2021-2025"</span></p>
                 <p className="t-row"><span className="t-key">GATE:</span> <span className="t-val-num">AIR 9642 (Score: 370+)</span></p>
                 <p className="t-row"><span className="t-key">CoreStack:</span> <span className="t-val-code">["Python", "React", "Flask", "Power BI", "SQL"]</span></p>
@@ -154,7 +155,7 @@ export default function DashboardOverview({ onNavigate, onShowToast }) {
           <div className="kpi-card-top">
             <div>
               <span className="kpi-sub-label">Enterprise Experience</span>
-              <h3 className="kpi-main-number">Lumen Tech</h3>
+              <h3 className="kpi-main-number">1.3+ Yrs FT</h3>
             </div>
             <div className="kpi-icon-pill icon-indigo">
               <Briefcase size={22} />
@@ -162,14 +163,14 @@ export default function DashboardOverview({ onNavigate, onShowToast }) {
           </div>
           <div className="kpi-indicator-row">
             <span className="kpi-badge badge-emerald">
-              <span className="dot-mini"></span> Active Enterprise
+              <span className="dot-mini"></span> SDE @ Lumen
             </span>
-            <span className="kpi-delta-text">Bangalore, IN</span>
+            <span className="kpi-delta-text">1.9+ Yrs Total (Lumen)</span>
           </div>
           <div className="kpi-progress-bar-bg">
             <div className="kpi-progress-bar-fill fill-indigo" style={{ width: '100%' }}></div>
           </div>
-          <p className="kpi-footer-note">Network telemetry, Python automation, and telecom software</p>
+          <p className="kpi-footer-note">1.3+ yrs full-time SDE &amp; 6 mos SDE Intern at Lumen Technologies</p>
         </div>
 
         <div className="kpi-metric-card reveal-on-scroll" onClick={() => onNavigate('about')}>
@@ -482,22 +483,44 @@ export default function DashboardOverview({ onNavigate, onShowToast }) {
         <div className="overview-timeline-box">
           <div className="timeline-entry-row active-now reveal-on-scroll">
             <div className="timeline-time-col">
-              <span className="time-badge">2025 - Present</span>
-              <span className="time-status-pill">Active Role</span>
+              <span className="time-badge">Aug 2025 - Present</span>
+              <span className="time-status-pill">Full-Time (1.3+ Yrs)</span>
             </div>
             <div className="timeline-content-col">
               <div className="timeline-company-title">
-                <h3>Intern Trainee @ Lumen Technologies</h3>
+                <h3>Software Development Engineer @ Lumen Technologies</h3>
                 <span className="loc-text">Bangalore, Karnataka</span>
               </div>
               <p className="timeline-desc">
-                Undergoing technical training and hands-on exposure to enterprise telecommunications infrastructure, network automation scripting, distributed software pipelines, and cloud telemetry systems.
+                Full-time Software Development Engineer architecting scalable telecommunications software, network automation, telemetry data pipelines, and distributed cloud services.
               </p>
               <div className="timeline-chips">
                 <span className="chip-item">Python</span>
                 <span className="chip-item">Enterprise Systems</span>
                 <span className="chip-item">Automation</span>
                 <span className="chip-item">Telecom Telemetry</span>
+                <span className="chip-item">CI/CD</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="timeline-entry-row reveal-on-scroll">
+            <div className="timeline-time-col">
+              <span className="time-badge">Feb 2025 - Jul 2025</span>
+              <span className="time-status-pill green">Internship (6 Mos)</span>
+            </div>
+            <div className="timeline-content-col">
+              <div className="timeline-company-title">
+                <h3>SDE Intern @ Lumen Technologies</h3>
+                <span className="loc-text">Bangalore, Karnataka</span>
+              </div>
+              <p className="timeline-desc">
+                Completed 6-month corporate internship in network automation and enterprise software systems, achieving full-time conversion to SDE.
+              </p>
+              <div className="timeline-chips">
+                <span className="chip-item">Python</span>
+                <span className="chip-item">Network Scripting</span>
+                <span className="chip-item">Agile</span>
               </div>
             </div>
           </div>
