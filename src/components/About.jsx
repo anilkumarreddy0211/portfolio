@@ -6,6 +6,7 @@ import {
   MapPin,
   GraduationCap,
   Briefcase,
+  Clock,
   Boxes,
   Binary,
   Layers,
@@ -54,7 +55,7 @@ export default function About() {
 
             <div className="photo-caption-card">
               <p className="caption-title">G Anil Kumar Reddy</p>
-              <p className="caption-sub">Intern Trainee @ Lumen Technologies</p>
+              <p className="caption-sub">Software Development Engineer @ Lumen</p>
             </div>
           </div>
 
@@ -131,6 +132,18 @@ export default function About() {
                 <div>
                   <span className="detail-label">Current Role</span>
                   <p className="detail-value">{PROFILE.currentStatus}</p>
+                </div>
+              </div>
+
+              <div className="detail-item">
+                <div className="detail-icon-circle">
+                  <Clock size={17} />
+                </div>
+                <div>
+                  <span className="detail-label">Work Experience</span>
+                  <p className="detail-value">
+                    <strong>1.3+ Yrs</strong> (Full-Time SDE) • <strong>1.9+ Yrs</strong> (w/ Internship)
+                  </p>
                 </div>
               </div>
             </div>
