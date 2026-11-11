@@ -1,10 +1,15 @@
 export const PROFILE = {
   name: "G Anil Kumar Reddy",
   shortName: "Anil Kumar",
-  title: "Software Developer & AI/DS Engineer",
-  roles: ["Python Developer", "Data Analyst", "Web Developer", "AI & ML Enthusiast"],
+  title: "Software Development Engineer & AI/DS Engineer",
+  roles: ["Software Development Engineer", "Python Developer", "Data Analyst", "AI & ML Enthusiast"],
   badge: "GATE Qualified 2024 (AIR 9642)",
-  currentStatus: "Intern Trainee @ Lumen Technologies",
+  currentStatus: "Software Development Engineer @ Lumen Technologies",
+  experience: {
+    fullTime: "1.3+ Years",
+    withInternship: "1.9+ Years (Lumen) / 2+ Years (Total)",
+    summary: "1.3+ Years Full-Time SDE | 1.9+ Years w/ Internship"
+  },
   availability: "Open to Opportunities",
   location: "Bangalore / Anantapur, Andhra Pradesh, India",
   birthday: "02 November 2003",
@@ -20,7 +25,7 @@ export const PROFILE = {
     email: "mailto:anilkumarreddy3029@gmail.com",
     instagram: "https://www.instagram.com/__Smart_Boy_Anil/"
   },
-  bio: `Focused and enthusiastic developer with a keen interest in software development, data analytics, and artificial intelligence. By comprehensive exposure to the underlying concepts and applying them vividly to various projects, my passion for these domains came into being. I thrive to build and apply intelligent algorithms and clean frontend interfaces to solve real-world industry problems.`
+  bio: `Focused and enthusiastic Software Development Engineer with 1.3+ years of full-time enterprise experience (1.9+ years including corporate internship) at Lumen Technologies. Possessing a solid foundation in software engineering, data analytics, and artificial intelligence, I specialize in building resilient backend systems, distributed telemetry processing, and intelligent applications.`
 };
 
 export const HIGHLIGHTS = [
@@ -33,14 +38,14 @@ export const HIGHLIGHTS = [
   {
     id: "role",
     label: "Professional Role",
-    value: "Intern Trainee",
-    description: "Lumen Technologies, Bangalore"
+    value: "SDE @ Lumen",
+    description: "Software Development Engineer, Bangalore"
   },
   {
-    id: "education",
-    label: "Engineering Degree",
-    value: "B.Tech CSE (AI&DS)",
-    description: "NBKR Institute of Science & Technology"
+    id: "experience",
+    label: "Experience",
+    value: "1.3+ Yrs FT (2 Yrs w/ Intern)",
+    description: "1.3+ Yrs Full-Time | 1.9+ Yrs w/ Internship"
   },
   {
     id: "projects",
@@ -154,25 +159,39 @@ export const EDUCATION = [
 
 export const EXPERIENCES = [
   {
-    title: "Intern Trainee",
+    title: "Software Development Engineer",
     company: "Lumen Technologies",
     location: "Bangalore, Karnataka, India",
-    period: "February 2025 - Present",
-    type: "Corporate Internship",
-    description: "Undergoing technical training and hands-on exposure to enterprise telecom solutions, software development pipelines, automation scripting, and cloud infrastructure.",
+    period: "August 2025 - Present",
+    type: "Full-Time (1.3+ Years)",
+    description: "Working as a full-time Software Development Engineer architecting scalable telecommunications software, enterprise network automation scripts, telemetry data pipelines, and distributed cloud services.",
     highlights: [
-      "Learning enterprise-grade software development practices and distributed architecture.",
-      "Engaging in telecommunications network data processing and automation scripts.",
-      "Collaborating with cross-functional engineering teams in agile sprints."
+      "Engineered and maintained enterprise-grade software services, automation pipelines, and monitoring tools using Python.",
+      "Designed and optimized data processing workflows for high-throughput telecommunications network telemetry.",
+      "Collaborated with cross-functional global engineering squads in agile sprints, participating in code reviews, CI/CD, and system design."
     ],
-    skills: ["Python", "Enterprise Systems", "Automation", "Cloud Telemetry", "Agile"]
+    skills: ["Python", "Enterprise Systems", "Automation", "Cloud Telemetry", "CI/CD", "Agile", "Distributed Systems"]
+  },
+  {
+    title: "Software Development Engineer Intern",
+    company: "Lumen Technologies",
+    location: "Bangalore, Karnataka, India",
+    period: "February 2025 - July 2025",
+    type: "Corporate Internship (6 Months)",
+    description: "Completed an intensive 6-month corporate internship with technical training and hands-on contributions to enterprise telecom infrastructure and automation tooling, successfully converting to a full-time SDE role.",
+    highlights: [
+      "Gained deep technical training in enterprise-grade software development practices and distributed architecture.",
+      "Developed telecommunications network data processing and automation scripts reducing manual overhead.",
+      "Earned full-time conversion based on consistent engineering performance, initiative, and team contributions."
+    ],
+    skills: ["Python", "Enterprise Architecture", "Scripting & Automation", "Telecom Networks", "Git & Agile"]
   },
   {
     title: "Machine Learning Intern",
     company: "Pantech e-Learning",
     location: "Remote / Virtual",
     period: "June 2023 - July 2023",
-    type: "Internship",
+    type: "Virtual Internship (2 Months)",
     description: "Developed and deployed an end-to-end Loan Approval Prediction machine learning system to automate eligibility verification.",
     highlights: [
       "Engineered machine learning pipelines utilizing Classification, Regression, and Clustering techniques.",
